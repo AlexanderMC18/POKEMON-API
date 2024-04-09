@@ -1,0 +1,22 @@
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+  }
+
+.pokemon-card {
+    text-align: center; /* Centrar el contenido del pokemon-card */
+    width: calc(33.33% - 20px); /* Ancho de aproximadamente un tercio del contenedor */
+    margin-bottom: 20px; /* Espacio entre las filas */
+}
+
+.pokemon-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.pokemon-card p {
+    margin-top: 10px;
+    text-align: center;
+}
